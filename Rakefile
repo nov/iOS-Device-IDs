@@ -11,6 +11,8 @@ Motion::Project::App.setup do |app|
   )
   app.frameworks << 'AdSupport'
 
+  app.vendor_project 'vendor/OpenUDID', :static, headers_dir: '.'
+
   app.development do
     app.codesign_certificate = 'iPhone Developer: Nobukazu Matake (SY7F6GQYWX)'
     app.provisioning_profile = File.join(

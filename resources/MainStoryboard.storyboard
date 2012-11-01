@@ -14,7 +14,7 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udr-5t-QBe">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="TDu-3R-8Et"/>
+                                    <constraint firstAttribute="height" constant="30" id="YGU-rn-UNZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -27,7 +27,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyb-1l-GqW">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="44X-Hd-Bdp"/>
+                                    <constraint firstAttribute="height" constant="30" id="EAV-Am-Dqk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -43,10 +43,36 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="OpenUDID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fc-HS-opX">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="UUID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfo-aw-zlV">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64u-hu-Icm">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="dZq-Vs-Ibl"/>
-                                    <constraint firstAttribute="width" constant="282" id="kAl-qS-YbE"/>
+                                    <constraint firstAttribute="height" constant="30" id="p1N-sw-96H"/>
+                                    <constraint firstAttribute="width" constant="282" id="te2-Uz-ol4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJd-xE-Snk">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1TL-oR-6dE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B54-pB-Iu0">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LnY-ip-8tJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -55,25 +81,40 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="64u-hu-Icm" firstAttribute="top" secondItem="gmy-Ep-QPd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="8Gr-XP-VEZ"/>
-                            <constraint firstItem="Yyb-1l-GqW" firstAttribute="top" secondItem="Fp7-FU-guI" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Ala-BK-VvU"/>
+                            <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="B54-pB-Iu0" secondAttribute="bottom" constant="41" type="user" id="1C3-qJ-WcA"/>
+                            <constraint firstAttribute="bottom" secondItem="xJd-xE-Snk" secondAttribute="bottom" constant="128" id="1QO-ac-Q9d"/>
+                            <constraint firstItem="gmy-Ep-QPd" firstAttribute="top" relation="greaterThanOrEqual" secondItem="nwJ-9W-gYB" secondAttribute="top" constant="196" type="user" id="8LH-B9-5hy"/>
                             <constraint firstAttribute="trailing" secondItem="Yyb-1l-GqW" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Cjn-TF-U0I"/>
+                            <constraint firstItem="gmy-Ep-QPd" firstAttribute="top" secondItem="nwJ-9W-gYB" secondAttribute="top" constant="196" id="FBn-Ca-cm4"/>
                             <constraint firstItem="uuN-h1-iq1" firstAttribute="leading" secondItem="nwJ-9W-gYB" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="GZm-nF-n9h"/>
-                            <constraint firstItem="Fp7-FU-guI" firstAttribute="top" secondItem="nwJ-9W-gYB" secondAttribute="top" constant="163" id="MIz-Cg-cWY"/>
                             <constraint firstItem="Yyb-1l-GqW" firstAttribute="leading" secondItem="nwJ-9W-gYB" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="RNF-fY-pxt"/>
                             <constraint firstItem="uuN-h1-iq1" firstAttribute="top" secondItem="nwJ-9W-gYB" secondAttribute="top" constant="20" symbolic="YES" type="default" id="T7X-kD-YlL"/>
                             <constraint firstItem="udr-5t-QBe" firstAttribute="leading" secondItem="nwJ-9W-gYB" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="WIn-Aq-ujw"/>
-                            <constraint firstItem="Fp7-FU-guI" firstAttribute="leading" secondItem="nwJ-9W-gYB" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Z5Y-MU-3If"/>
+                            <constraint firstItem="B54-pB-Iu0" firstAttribute="top" secondItem="gfo-aw-zlV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="YPF-aN-f0A"/>
+                            <constraint firstItem="4fc-HS-opX" firstAttribute="leading" secondItem="nwJ-9W-gYB" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="YUu-FR-XOv"/>
                             <constraint firstItem="udr-5t-QBe" firstAttribute="top" secondItem="uuN-h1-iq1" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="a56-R4-LPq"/>
-                            <constraint firstAttribute="bottom" secondItem="gmy-Ep-QPd" secondAttribute="bottom" constant="174" id="aij-xj-hft"/>
                             <constraint firstAttribute="trailing" secondItem="udr-5t-QBe" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="e49-2o-Qyy"/>
+                            <constraint firstAttribute="bottom" secondItem="B54-pB-Iu0" secondAttribute="bottom" constant="41" id="eZb-R7-Ls5"/>
+                            <constraint firstAttribute="trailing" secondItem="xJd-xE-Snk" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="h0F-Aw-QgP"/>
                             <constraint firstAttribute="trailing" secondItem="64u-hu-Icm" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="i0Z-Sj-VsR"/>
+                            <constraint firstItem="Fp7-FU-guI" firstAttribute="leading" secondItem="64u-hu-Icm" secondAttribute="leading" type="default" id="jYK-QR-3nZ"/>
+                            <constraint firstItem="64u-hu-Icm" firstAttribute="leading" secondItem="xJd-xE-Snk" secondAttribute="leading" type="default" id="lMa-xD-Ph8"/>
                             <constraint firstItem="gmy-Ep-QPd" firstAttribute="leading" secondItem="nwJ-9W-gYB" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="lUT-Ge-CW8"/>
+                            <constraint firstItem="xJd-xE-Snk" firstAttribute="top" secondItem="4fc-HS-opX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="mGF-KM-1YX"/>
+                            <constraint firstItem="gfo-aw-zlV" firstAttribute="leading" secondItem="nwJ-9W-gYB" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="oTF-mo-IH4"/>
+                            <constraint firstItem="Yyb-1l-GqW" firstAttribute="top" secondItem="Fp7-FU-guI" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="plA-hV-dXu"/>
+                            <constraint firstItem="Fp7-FU-guI" firstAttribute="top" secondItem="nwJ-9W-gYB" secondAttribute="top" constant="108" id="vfN-6y-FuK"/>
+                            <constraint firstAttribute="trailing" secondItem="B54-pB-Iu0" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="wb8-05-VDN"/>
+                            <constraint firstItem="64u-hu-Icm" firstAttribute="top" secondItem="gmy-Ep-QPd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="xGN-6g-6lZ"/>
+                            <constraint firstItem="B54-pB-Iu0" firstAttribute="leading" secondItem="xJd-xE-Snk" secondAttribute="leading" type="default" id="yA9-EE-E8a"/>
+                            <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="xJd-xE-Snk" secondAttribute="bottom" constant="181" type="user" id="z54-AO-vrY"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="advertising_id_label" destination="64u-hu-Icm" id="8WA-hD-5uy"/>
+                        <outlet property="open_udid_label" destination="xJd-xE-Snk" id="ipt-co-w2H"/>
                         <outlet property="udid_label" destination="udr-5t-QBe" id="oFL-qB-5pz"/>
+                        <outlet property="uuid_label" destination="B54-pB-Iu0" id="mlm-2v-R7K"/>
                         <outlet property="vendor_id_label" destination="Yyb-1l-GqW" id="OCh-1h-587"/>
                     </connections>
                 </viewController>
@@ -90,7 +131,9 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/RootViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="advertising_id_label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="open_udid_label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="udid_label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="uuid_label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="vendor_id_label" candidateClass="UILabel"/>
             </relationships>
         </class>
